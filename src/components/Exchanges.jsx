@@ -35,7 +35,7 @@ const Exchanges = () => {
         <Loader />
       ) : (
         <>
-          <HStack wrap={"wrap"}>
+          <HStack wrap={"wrap"} justifyContent={"space-evenly"}>
             {exchanges.map((i) => (
               <ExchangeCard
                 key={i.id}
@@ -58,7 +58,7 @@ const ExchangeCard = ({ name, img, rank, url }) => (
       w={"52"}
       shadow={"lg"}
       p={"8"}
-      m={"2"}
+      m={"4"}
       borderRadius={"lg"}
       transition={"all 0.3s"}
       css={{
