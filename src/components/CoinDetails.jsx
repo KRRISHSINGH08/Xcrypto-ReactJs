@@ -19,7 +19,7 @@ import {
 import React, { useEffect, useState } from "react";
 import Loader from "./Loader";
 import axios from "axios";
-import { server } from "..";
+import { server } from "../index";
 import { useParams } from "react-router-dom";
 import ErrorComponent from "./ErrorComponent";
 
